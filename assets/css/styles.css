@@ -308,6 +308,21 @@ footer {
     height: 3rem;
 }
 
+.resume {
+    margin: auto;
+    background-color: var(--bg-color);
+}
+
+.resume-header {
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.resume-container {
+    width: 100%;
+    height: 45rem;
+}
+
 @media screen and (max-width: 720px) {
     /* changes reflects on screen with a width 720px and below
     (tablets and mobile phones */
