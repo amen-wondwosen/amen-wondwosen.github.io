@@ -27,16 +27,15 @@
             href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
         >
 
-        <title>Amen Wondwosen | Software Developer</title>
+        <title>Amen Wondwosen | Portfolio</title>
     </head>
     <body>
         <!-- Navbar -->
         <nav>
             <h1><a href="#">AMEN WONDWOSEN</a></h1>
             <ul class="navigation">
-                <li><a href="#about" class="nav-link">About</a></li>
-                <li><a href="#projects" class="nav-link">Projects</a></li>
-                <!-- <li><a href="#contact" class="nav-link">Contact</a></li> -->
+                <!-- <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li> -->
                 <li><a href="resume.html" class="nav-link">Resume</a></li>
             </ul>
             <button class="burger-menu" id="burger-menu">
@@ -45,128 +44,70 @@
         </nav>
 
         <!-- Hero section -->
-        <section class="hero" id="about">
-            <!-- <img
-                src="assets/images/necomeme.gif"
-                sizes="106x119"
-                alt="amen-wondwosen"
-                loading="lazy"
-                class="hero-img"
-            > -->
+        <section class="hero container" id="about">
             <div class="bio">
                 <h2 class="bio-title">About Me</h2>
                 <p class="bio-text">
-                    I am a undergraduate Computer Game Science major at University
-                    of California - Irvine.
+                    I am a (self-proclaimed) developer with a B.S. in Computer
+                    Game Science at University of California, Irvine.
                 </p>
             </div>
         </section>
 
         <!-- Projects section -->
-        <section class="projects" id="projects">
+        <section class="projects container" id="projects">
             <h2 class="projects-title">Some Recent Projects</h2>
             <div class="projects-container">
-                <!-- <img
-                    src="assets/images/MyAnimeListPy.PNG"
-                    alt="myanimelistpy"
-                    loading="lazy"
-                    class="project-pic"
-                > -->
                 <div class="project-details">
-                    <h3 class="project-title">MyAnimeListPy</h3>
-                    <p class="project-header"><strong>Solo Project</strong></p>
-                    <p class="project-header"><i>October 2021 - November 2021</i></p>
-                    <p class="project-description">
-                        A program that uses the website
-                        <a href="https://myanimelist.net/" target="_blank">MyAnimeList</a>
-                        to search for information about a particular entity. By inputting
-                        the anime or manga id, the user can get metadata like the title,
-                        alternate titles, season premiered, and more.
-                    </p>
-                    <p class="project-description">
-                        It started off as a wanting to create my own anime/manga search
-                        engine. After going through several prototypes, I realized that
-                        I was thinking too big. I took a new approach focusing on making
-                        the simplest possible version of my original idea.
-                    </p>
-                    <a href="https://github.com/amen-wondwosen/MyAnimeListPy" target="_blank" class="project-link">Check it Out</a>
+                    <h3 class="project-title">
+                        <a
+                            href="https://github.com/amen-wondwosen/MyAnimeListPy"
+                            target="_blank">
+                            MyAnimeListPy
+                        </a>
+                    </h3>
+                    <!-- <p class="project-header"><strong>Solo Project</strong></p>
+                    <p class="project-header"><i>October 2021 - November 2021</i></p> -->
+                    <div class="project-description">
+                        <p>
+                            A program that uses the website
+                            <a href="https://myanimelist.net/" target="_blank">MyAnimeList</a>
+                            to search for information about a particular entity. By inputting
+                            the anime or manga id, the user can get metadata like the title,
+                            alternate titles, season premiered, and more.
+                        </p>
+                        <p>
+                            <strong>Technology Stack: </strong>
+                            Python, Jikan(Rest API)
+                        </p>
+                    </div>
+                    <!-- <a href="https://github.com/amen-wondwosen/MyAnimeListPy" target="_blank" class="project-link">Check it Out</a> -->
                 </div>
                 <br>
-                <!-- <img
-                    src="assets/images/FuryRoad.PNG"
-                    alt="furyroad"
-                    loading="lazy"
-                    class="project-pic"
-                > -->
                 <div class="project-details">
-                    <h3 class="project-title">Fury Road</h3>
+                    <h3 class="project-title">
+                        <a
+                            class="project-description"
+                            href="https://codeyhuntting.itch.io/fury-road"
+                            target="_blank">
+                            Fury Road
+                        </a>
+                    </h3>
                     <p class="project-header"><strong>UCI Capstone</strong></p>
                     <p class="project-header"><i>January 2021 - Present</i></p>
-                    <p class="project-description">
-                        A project that initially started off as a group work for
-                        a class assignment.
-                    </p>
-                    <p class="project-description">
-                        <i>Insert text</i>
-                    </p>
-                    <a href="https://github.com/BenjiBoy926/FuryRoad" target="_blank" class="project-description">Check it Out</a>
+                    <div class="project-description">
+                        <p>
+                            A project that initially started off as a group work for
+                            a class assignment.
+                        </p>
+                    </div>
+                    <!-- <a href="https://codeyhuntting.itch.io/fury-road" target="_blank" class="project-description">Check it Out</a> -->
                 </div>
             </div>
             <a href="https://github.com/amen-wondwosen" target="_blank" class="projects-link">
                 Check out more of my projects
             </a>
         </section>
-
-        <!-- Contact section -->
-        <!-- <section class="contact" id="contact">
-            <h2>Get In Touch With Me</h2>
-            <div class="contact-form-container">
-                <div class="contact-form">
-                    <form action="https://formspree.io/f/xdobnool" method="POST">
-                        <div class="form-control">
-                            <label for="name">Name</label>
-                            <input
-                                type="text"
-                                id="name"
-                                name="sender-name"
-                                placeholder="Enter Your Name"
-                                class="input-field"
-                                required
-                            >
-                        </div>
-                        <div class="form-control">
-                            <label for="email">Email</label>
-                            <input
-                                type="email"
-                                id="email"
-                                name="sender-email"
-                                placeholder="Enter Your Email"
-                                class="input-field"
-                                required
-                            >
-                        </div>
-                        <div class="form-control">
-                            <label for="message">Message</label>
-                            <textarea
-                                id="message"
-                                cols="60"
-                                rows="10"
-                                placeholder="Enter Your Message"
-                                name="message"
-                                class="input-field"
-                                required
-                            ></textarea>
-                        </div>
-                        <input
-                            type="submit"
-                            value="Submit"
-                            id="submit-btn"
-                            class="submit-btn"
-                        >
-                    </form>
-                </div>
-            </div>
-        </section> -->
 
         <!-- Social accounts - Fixed to the right -->
         <div class="socials">
@@ -199,21 +140,21 @@
 
         <!-- Footer section -->
         <footer>
-            <p class="copy">&copy; Copyright 2023</p>
-            <p class="copy">Built by AMEN WONDWOSEN</p>
+            <p class="copy">Copyright &copy; 2021-2023 Amen Wondwosen</p>
+            <!-- <p class="copy">Built by AMEN WONDWOSEN</p> -->
         </footer>
 
         <!-- Website scripts -->
         <script src="assets/js/app.js"></script>
 
         <!-- Ion icons scripts -->
-        <script
+        <!-- <script
             type="module"
             src="https://unpkg.com/ionicon@5.5.2/dist/ionicons/ionicons.esm.js"
         ></script>
         <script
             nomodule
             src="https://unpkg.com/ioicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
+        ></script> -->
     </body>
 </html>
