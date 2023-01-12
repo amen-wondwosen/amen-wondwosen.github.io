@@ -291,14 +291,10 @@ footer {
     background-color: var(--bg-color);
 }
 
-.resume-header {
-    text-align: center;
-    padding: 1.25rem;
-}
-
 .resume-container {
+    border: none;
+    height: calc(100vh - 30px);
     width: 100%;
-    height: 45rem;
 }
 
 .copy {
