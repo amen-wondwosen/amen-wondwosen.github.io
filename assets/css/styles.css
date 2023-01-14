@@ -45,6 +45,10 @@ a {
     color: var(--primary-color);
 }
 
+i {
+    color: var(--primary-color);
+}
+
 a:hover {
     text-decoration: none;
     color: var(--secondary-color);
@@ -137,9 +141,9 @@ nav ul li {
     /* padding: 0.3rem 0; */
 }
 
-.education {
+/* .education {
     margin-bottom: var(--bottom-margin);
-}
+} */
 
 /* .education-title {
     margin-bottom: var(--bottom-margin-2);
