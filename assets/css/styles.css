@@ -227,8 +227,11 @@ nav ul li {
 }
 
 .socicon {
-    width: 2rem;
-    height: 2rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    /* border-radius: 50%; */
+    /* background-color: var(--secondary-color); */
+    margin-bottom: var(--bottom-margin);
 }
 
 footer {
