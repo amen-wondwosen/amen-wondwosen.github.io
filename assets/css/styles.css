@@ -8,7 +8,7 @@
     --bolder-font: 900;
     --bg-color: #8b8b8b;
     --bg-color2: #dbd9d9;
-    --primary-color: #4756df;
+    --primary-color: #000000;
     --secondary-color: #ff7235;
     --primary-shadow: #8b8eaf;
     --secondary-shadow: #a17a69;
@@ -198,6 +198,16 @@ nav ul li {
     box-shadow: 0 3px 10px var(--primary-shadow);
     padding: 20px;
     margin: 10px;
+}
+
+.projects-btn {
+    background-color: var(--bg-color);
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.projects-btn a {
+    color: white;
 }
 
 /* .projects-link {
