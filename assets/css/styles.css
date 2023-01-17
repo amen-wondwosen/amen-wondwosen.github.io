@@ -148,8 +148,8 @@ nav ul li {
     margin-bottom: var(--bottom-margin-2);
 } */
 
-.schools {
-    /* margin-bottom: var(--bottom-margin-2); */
+.school {
+    margin-bottom: var(--bottom-margin);
 }
 
 /* .projects {
