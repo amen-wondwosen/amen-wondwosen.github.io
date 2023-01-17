@@ -75,28 +75,28 @@ nav a {
     transition: var(--transition);
 }
 
-nav a:hover {
+/* nav a:hover {
     color: var(--secondary-color);
     border-bottom: 2px solid var(--secondary-color);
-}
+} */
 
 nav ul {
     display: flex;
-    gap: 1.9rem;
+    /* gap: 1.9rem; */
 }
 
 nav ul li {
     font-weight: var(--bold-font);
 }
 
-.burger-menu {
+/* .burger-menu {
     color: var(--primary-color);
     font-size: 2rem;
     border: 0;
     background-color: transparent;
     cursor: pointer;
     display: none;
-}
+} */
 
 .container {
     background-color: #ffffff;
@@ -148,8 +148,8 @@ nav ul li {
     margin-bottom: var(--bottom-margin-2);
 } */
 
-.school {
-    margin-bottom: var(--bottom-margin);
+.schools {
+    /* margin-bottom: var(--bottom-margin-2); */
 }
 
 /* .projects {
@@ -172,9 +172,9 @@ nav ul li {
     
 }
 
-.project-container p {
+/* .project-container p {
     padding: 0.4rem;
-}
+} */
 
 .project-pic {
     flex: 1;
@@ -234,7 +234,7 @@ nav ul li {
     height: 2.1rem;
     /* border-radius: 50%; */
     /* background-color: var(--secondary-color); */
-    margin-bottom: var(--bottom-margin);
+    margin: var(--bottom-margin);
 }
 
 footer {
