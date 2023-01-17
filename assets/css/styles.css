@@ -201,7 +201,7 @@ nav ul li {
 }
 
 .projects-btn {
-    background-color: var(--bg-color);
+    background-color: gray;
     padding: 10px;
     border-radius: 6px;
     border: none;
