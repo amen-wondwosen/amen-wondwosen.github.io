@@ -108,15 +108,11 @@ nav ul li {
     margin: auto;
     margin-top: 1.5rem;
     padding: 15px 30px 15px 30px;
-    width: 75%;
+    max-width: 60%;
 }
 
 .container h2 {
     margin-bottom: var(--bottom-margin-2);
-}
-
-.container section {
-    border: solid;
 }
 
 .hero {
@@ -274,16 +270,7 @@ footer {
     (tablets and mobile phones */
 
     nav {
-        /* position: sticky;
-        top: 0;
-        left: 0;
-        z-index: 1; */
-        display: flex;
-        align-items: center;
         flex-direction: column;
-        padding: 1.5rem 3.5rem;
-        background-color: var(--bg-color2);
-        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     }
 
     /*nav ul {
@@ -309,6 +296,10 @@ footer {
     nav ul.show {
         transform: translateX(0);
     } */
+
+    .container {
+        max-width: 75%;
+    }
 
     /* .hero {
         margin-top: -4rem;
