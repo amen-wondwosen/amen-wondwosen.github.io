@@ -251,13 +251,13 @@ footer {
 }
 
 .resume {
-    margin: auto;
-    background-color: var(--bg-color);
+    /* margin: auto;
+    background-color: var(--bg-color); */
 }
 
 .resume-container {
     border: none;
-    height: calc(100vh - 30px);
+    height: calc(100vh - 5px);
     width: 100%;
 }
 
