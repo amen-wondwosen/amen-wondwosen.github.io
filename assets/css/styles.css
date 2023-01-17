@@ -33,7 +33,6 @@ body {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 2px solid red; */
 }
 
 ul {
@@ -45,13 +44,13 @@ a {
     color: var(--primary-color);
 }
 
-i {
-    color: var(--primary-color);
-}
-
 a:hover {
     text-decoration: none;
     color: var(--secondary-color);
+}
+
+i {
+    color: var(--primary-color);
 }
 
 nav {
@@ -148,6 +147,10 @@ nav ul li {
 /* .education-title {
     margin-bottom: var(--bottom-margin-2);
 } */
+
+.school {
+    margin-bottom: var(--bottom-margin);
+}
 
 /* .projects {
     background-color: var(--bg-color);
