@@ -116,15 +116,15 @@ nav ul li {
 }
 
 .hero {
-    gap: 2.5rem;
+    /* gap: 2.5rem; */
     /* margin: auto; */
 }
 
 .bio {
     /* padding: 0.625rem; */
     /* border-radius: 6px; */
-    word-wrap: break-word;
-    margin-bottom: var(--bottom-margin);
+    /* word-wrap: break-word;
+    margin-bottom: var(--bottom-margin); */
 }
 
 /* .bio-title {
@@ -181,6 +181,7 @@ nav ul li {
 
 .project-details {
     flex: 1;
+    margin-bottom: var(--bottom-margin-2);
 }
 
 .project-title {
