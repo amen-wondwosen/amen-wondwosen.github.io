@@ -68,6 +68,7 @@ nav {
 
 nav h1 {
     color: var(--primary-color);
+    font-size: 45px;
 }
 
 nav a {
@@ -201,14 +202,14 @@ nav ul li {
     margin: 10px;
 }
 
-.projects-btn {
+.btn {
     background-color: gray;
     padding: 10px;
     border-radius: 6px;
     border: none;
 }
 
-.projects-btn a {
+.btn a {
     color: white;
 }
 
